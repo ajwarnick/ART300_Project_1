@@ -2,10 +2,14 @@
 
 
 body{
-    background-color: #ffa7e2;
+   
     background-color: rgb( 255, 255, 100);
     font-family: 'Major Mono Display', monospace;
     margin-bottom:50px; 
+}
+
+h1{
+    font-family: 'Major Mono Display', monospace; 
 }
 
 img{
@@ -39,7 +43,3 @@ img{
     color: black;
 }
   
-/* Main content */
-.main {
-    margin-top: 30px; /* Add a top margin to avoid content overlay */
-}
