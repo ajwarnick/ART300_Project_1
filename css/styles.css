@@ -1,9 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
+
+
 body{
+
+   
     background-color: rgb( 255, 255, 100);
-    color: #f98efd;
+    font-family: 'Major Mono Display', monospace;
+    margin-bottom:50px; 
+}
+
+h1{
+    font-family: 'Major Mono Display', monospace; 
 }
 
 img{
     max-width: 100%;
     height: auto;
 }
+
+
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    bottom: 0; /* Position the navbar at the bottom of the page */
+    left:0; /* Position the navbar at the left of the page */
+    width: 100%; /* Full width */    
+}
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+/* Change background on mouse-over */
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+  
