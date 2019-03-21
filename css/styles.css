@@ -91,3 +91,24 @@ img{
     background-color: rgb( 255, 255, 100);
 
 }
+
+
+
+.horizontal {
+    overflow-y: hidden;
+    overflow-x: scroll;
+    
+    white-space: nowrap;
+    width:100%;
+    height: 200px;
+}
+
+.imageContainer{
+    width: auto;
+    height: 100%;;
+}
+
+.horizontal img{
+    max-height: 100%;
+    width:auto;
+}
