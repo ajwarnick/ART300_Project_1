@@ -117,24 +117,35 @@ img{
     background-color: rgb( 255, 255, 100);
 }
 
+
 .horizontal {
-    overflow-y: hidden;
-    overflow-x: scroll;
-    
-    white-space: nowrap;
-    width:100%;
-    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: auto;
 }
 
 .imageContainer{
-    width: auto;
-    height: 100%;;
+    display: flex;
+    min-width: 100%;
+    min-height: 200px;
+    overflow-x: auto;
+}
+
+.horizontal-item{
+    min-width: 100%;
+    min-height: 200px;
 }
 
 .horizontal img{
-    max-height: 100%;
+    max-width: 100vw;
     width:auto;
 }
+
+
+
+
+
 
 .myTop{
     display: block;
